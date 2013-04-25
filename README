@@ -1,0 +1,55 @@
+ Canadian Tax Calculations for 2003/2004
+------------------------------------------
+
+This package performs tax calculations for Canadian income taxation,
+and has a variety of forms set up for calculations for the 2003 and
+2004 tax year.
+
+The "main program" is the file taxreturn.pl; it starts by loading in
+all the forms, and then states a series of taxfact/3 and taxfact/4
+rules that describe each individual's tax situation.  There are, in
+addition, a set of "form" predicates, such as t4/15, used to present
+the values on one's T4 slips.  (Presumably, additional similar "forms"
+will eventually be set up to support T3, T4A, and T5 slips...)
+
+Note that each of the facts begins with a taxpayer identifier; this
+means that if you are preparing returns for a family, you can put
+information about all of the family members together, and thus where
+the tax returns need to reference one another, they, well, do so.
+
+On Unix, you load this all up by visiting the directory where all the
+Prolog code is, thus:
+
+[cbbrowne@wolfe:canada2003] swipl
+Welcome to SWI-Prolog (Multi-threaded, Version 5.2.7)
+Copyright (c) 1990-2003 University of Amsterdam.
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software,
+and you are welcome to redistribute it under certain conditions.
+Please visit http://www.swi-prolog.org for details.
+
+For help, use ?- help(Topic). or ?- apropos(Word).
+
+?- [taxreturn].
+[Warnings elided]
+% taxreturn compiled 0.02 sec, 149,184 bytes
+
+Yes
+?- 
+
+At this point, you may interact with the system, querying values.  In
+order to provide an organized way to collect values to copy onto a tax
+return, each tax form has an associated formatting/2 predicate that
+provides a schema for formatting the form's output.
+
+The predicate display_form/2 may be used to display the contents of a
+tax form.
+
+If you wish to display all of the forms for all of the taxpayers, you
+might enter the query:
+?- display_form(TAXPAYER, YEAR, FORM).
+which will then display forms, pausing after each one.  Press ";" to
+continue.
+
+At present, the set of forms supported is a bit limited, providing
+only calculations for residents of Ontario, for a set of tax forms
+that the initial author found useful or particularly interesting.

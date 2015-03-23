@@ -93,6 +93,11 @@ line(_TAXPAYER, 2012, 'Annual Rates', 'Ontario Higher Marginal Portion', 78043).
 line(_TAXPAYER, 2013, 'Annual Rates', 'Ontario Lower Marginal Portion', 39723).
 line(_TAXPAYER, 2013, 'Annual Rates', 'Ontario Higher Marginal Portion', 79448).
 
+line(_TAXPAYER, 2014, 'Annual Rates', 'Ontario Lower Marginal Portion', 40120).
+line(_TAXPAYER, 2014, 'Annual Rates', 'Ontario Higher Marginal Portion', 80242).
+line(_TAXPAYER, 2014, 'Annual Rates', 'Ontario Still Higher Marginal Portion', 150000).
+line(_TAXPAYER, 2014, 'Annual Rates', 'Ontario Top Marginal Portion', 220000).
+
 line(_TAXPAYER, 2003, 'Annual Rates', 'Ontario Surtax - First Chunk', 3747).
 line(_TAXPAYER, 2003, 'Annual Rates', 'Ontario Surtax - Second Chunk', 4727).
 
@@ -116,6 +121,9 @@ line(_TAXPAYER, 2012, 'Annual Rates', 'Ontario Surtax - Second Chunk', 5392).
 
 line(_TAXPAYER, 2013, 'Annual Rates', 'Ontario Surtax - First Chunk', 4289).
 line(_TAXPAYER, 2013, 'Annual Rates', 'Ontario Surtax - Second Chunk', 5489).
+
+line(_TAXPAYER, 2014, 'Annual Rates', 'Ontario Surtax - First Chunk', 4331).
+line(_TAXPAYER, 2014, 'Annual Rates', 'Ontario Surtax - Second Chunk', 5543).
 
 line(_TAXPAYER, 2003, 'Annual Rates', 'Ontario Personal Credit', 7816).
 line(_TAXPAYER, 2003, 'Annual Rates', 'Ontario Spousal Credit', 7301).
@@ -144,6 +152,9 @@ line(_TAXPAYER, 2012, 'Annual Rates', 'Ontario Spousal Credit', 8784).
 line(_TAXPAYER, 2013, 'Annual Rates', 'Ontario Personal Credit', 9574).
 line(_TAXPAYER, 2013, 'Annual Rates', 'Ontario Spousal Credit', 8942).
 
+line(_TAXPAYER, 2014, 'Annual Rates', 'Ontario Personal Credit', 9670).
+line(_TAXPAYER, 2014, 'Annual Rates', 'Ontario Spousal Credit', 9032).
+
 line(_TAXPAYER, 2003, 'Annual Rates', 'Ontario Maximum Medical Amount', 1770).
 line(_TAXPAYER, 2004, 'Annual Rates', 'Ontario Maximum Medical Amount', 1821).
 line(_TAXPAYER, 2005, 'Annual Rates', 'Ontario Maximum Medical Amount', 1856).
@@ -152,6 +163,7 @@ line(_TAXPAYER, 2008, 'Annual Rates', 'Ontario Maximum Medical Amount', 1965).
 line(_TAXPAYER, 2009, 'Annual Rates', 'Ontario Maximum Medical Amount', 2010).
 line(_TAXPAYER, 2012, 'Annual Rates', 'Ontario Maximum Medical Amount', 2128).
 line(_TAXPAYER, 2013, 'Annual Rates', 'Ontario Maximum Medical Amount', 2167).
+line(_TAXPAYER, 2014, 'Annual Rates', 'Ontario Maximum Medical Amount', 2188).
 
 line(_TAXPAYER, 2003, 'Annual Rates', 'Lowest Marginal Portion', 32183).
 line(_TAXPAYER, 2003, 'Annual Rates', 'Middle Marginal Portion', 64368).
@@ -184,6 +196,10 @@ line(_TAXPAYER, 2012, 'Annual Rates', 'Top Marginal Portion', 132400).
 line(_TAXPAYER, 2013, 'Annual Rates', 'Lowest Marginal Portion', 39723).
 line(_TAXPAYER, 2013, 'Annual Rates', 'Middle Marginal Portion', 79448).
 line(_TAXPAYER, 2013, 'Annual Rates', 'Top Marginal Portion', 509000).
+
+line(_TAXPAYER, 2014, 'Annual Rates', 'Lowest Marginal Portion', 39723).
+line(_TAXPAYER, 2014, 'Annual Rates', 'Middle Marginal Portion', 79448).
+line(_TAXPAYER, 2014, 'Annual Rates', 'Top Marginal Portion', 509000).
 
 line(_TAXPAYER, YEAR, 'Annual Rates', 'Share of Ontario Health Premium', RATE) :-
 	YEAR < 2007,
@@ -231,6 +247,11 @@ line(_TAXPAYER, 2013, 'Annual Rates', 'Federal Base - Low', 6534).
 line(_TAXPAYER, 2013, 'Annual Rates', 'Federal Base - Medium', 16118).
 line(_TAXPAYER, 2013, 'Annual Rates', 'Federal Base - Top', 28580).
 
+line(_TAXPAYER, 2014, 'Annual Rates', 'Federal Base - Lowest', 0).
+line(_TAXPAYER, 2014, 'Annual Rates', 'Federal Base - Low', 6593).
+line(_TAXPAYER, 2014, 'Annual Rates', 'Federal Base - Medium', 16263).
+line(_TAXPAYER, 2014, 'Annual Rates', 'Federal Base - Top', 28537).
+
 line(_TAXPAYER, 2003, 'Annual Rates', 'Federal Basic Personal Amount', 7756).
 line(_TAXPAYER, 2004, 'Annual Rates', 'Federal Basic Personal Amount', 8012).
 line(_TAXPAYER, 2005, 'Annual Rates', 'Federal Basic Personal Amount', 8148).
@@ -240,6 +261,7 @@ line(_TAXPAYER, 2008, 'Annual Rates', 'Federal Basic Personal Amount', 9600).
 line(_TAXPAYER, 2009, 'Annual Rates', 'Federal Basic Personal Amount', 10320).
 line(_TAXPAYER, 2012, 'Annual Rates', 'Federal Basic Personal Amount', 10822).
 line(_TAXPAYER, 2013, 'Annual Rates', 'Federal Basic Personal Amount', 11038).
+line(_TAXPAYER, 2014, 'Annual Rates', 'Federal Basic Personal Amount', 11138).
 
 line(_TAXPAYER, 2003, 'Annual Rates', 'Federal Age Amount', 3787).
 line(_TAXPAYER, 2004, 'Annual Rates', 'Federal Age Amount', 3912).
@@ -250,6 +272,7 @@ line(_TAXPAYER, 2008, 'Annual Rates', 'Federal Age Amount', 5276).
 line(_TAXPAYER, 2009, 'Annual Rates', 'Federal Age Amount', 6408).
 line(_TAXPAYER, 2012, 'Annual Rates', 'Federal Age Amount', 6720).
 line(_TAXPAYER, 2013, 'Annual Rates', 'Federal Age Amount', 6854).
+line(_TAXPAYER, 2014, 'Annual Rates', 'Federal Age Amount', 6916).
 
 line(_TAXPAYER, 2003, 'Annual Rates', 'Federal Spousal Income Amount', 7245).
 line(_TAXPAYER, 2004, 'Annual Rates', 'Federal Spousal Income Amount', 7484).
@@ -260,6 +283,7 @@ line(_TAXPAYER, 2008, 'Annual Rates', 'Federal Spousal Income Amount', 9600).
 line(_TAXPAYER, 2009, 'Annual Rates', 'Federal Spousal Income Amount', 10320).
 line(_TAXPAYER, 2012, 'Annual Rates', 'Federal Spousal Income Amount', 99999).
 line(_TAXPAYER, 2013, 'Annual Rates', 'Federal Spousal Income Amount', 99999).
+line(_TAXPAYER, 2014, 'Annual Rates', 'Federal Spousal Income Amount', 99999).
 
 line(_TAXPAYER, 2003, 'Annual Rates', 'Federal Maximum Spousal Credit', 6586).
 line(_TAXPAYER, 2004, 'Annual Rates', 'Federal Maximum Spousal Credit', 6803).
@@ -270,6 +294,7 @@ line(_TAXPAYER, 2008, 'Annual Rates', 'Federal Maximum Spousal Credit', 9600).
 line(_TAXPAYER, 2009, 'Annual Rates', 'Federal Maximum Spousal Credit', 10320).
 line(_TAXPAYER, 2012, 'Annual Rates', 'Federal Maximum Spousal Credit', 99999).
 line(_TAXPAYER, 2013, 'Annual Rates', 'Federal Maximum Spousal Credit', 99999).
+line(_TAXPAYER, 2014, 'Annual Rates', 'Federal Maximum Spousal Credit', 99999).
 
 line(_TAXPAYER, 2003, 'Annual Rates', 'Federal Maximum Income Subject to CPP', 36400).
 line(_TAXPAYER, 2004, 'Annual Rates', 'Federal Maximum Income Subject to CPP', 37000).
@@ -292,6 +317,7 @@ line(_TAXPAYER, 2008, 'Annual Rates', 'Federal Maximum CPP', 2049.3).
 line(_TAXPAYER, 2009, 'Annual Rates', 'Federal Maximum CPP', 2118.6).
 line(_TAXPAYER, 2012, 'Annual Rates', 'Federal Maximum CPP', 2306.7).
 line(_TAXPAYER, 2013, 'Annual Rates', 'Federal Maximum CPP', 2356.2).
+line(_TAXPAYER, 2014, 'Annual Rates', 'Federal Maximum CPP', 9999).
 
 line(_TAXPAYER, 2003, 'Annual Rates', 'Federal Dependent Base', 7245).
 line(_TAXPAYER, 2004, 'Annual Rates', 'Federal Dependent Base', 99999).
@@ -301,6 +327,7 @@ line(_TAXPAYER, 2008, 'Annual Rates', 'Federal Dependent Base', 99999).
 line(_TAXPAYER, 2010, 'Annual Rates', 'Federal Dependent Base', 10320).
 line(_TAXPAYER, 2012, 'Annual Rates', 'Federal Dependent Base', 99999).
 line(_TAXPAYER, 2013, 'Annual Rates', 'Federal Dependent Base', 99999).
+line(_TAXPAYER, 2014, 'Annual Rates', 'Federal Dependent Base', 99999).
 
 line(_TAXPAYER, 2003, 'Annual Rates', 'Federal Infirm Dependent Base', 8860).
 line(_TAXPAYER, 2004, 'Annual Rates', 'Federal Infirm Dependent Base', 99999).
@@ -310,6 +337,7 @@ line(_TAXPAYER, 2008, 'Annual Rates', 'Federal Infirm Dependent Base', 99999).
 line(_TAXPAYER, 2009, 'Annual Rates', 'Federal Infirm Dependent Base', 10320).
 line(_TAXPAYER, 2012, 'Annual Rates', 'Federal Infirm Dependent Base', 99999).
 line(_TAXPAYER, 2013, 'Annual Rates', 'Federal Infirm Dependent Base', 99999).
+line(_TAXPAYER, 2014, 'Annual Rates', 'Federal Infirm Dependent Base', 99999).
 
 line(_TAXPAYER, 2003, 'Annual Rates', 'Federal Infirm Dependent Max Income', 3663).
 line(_TAXPAYER, 2004, 'Annual Rates', 'Federal Infirm Dependent Max Income', 99999).
@@ -319,6 +347,7 @@ line(_TAXPAYER, 2008, 'Annual Rates', 'Federal Infirm Dependent Max Income', 999
 line(_TAXPAYER, 2009, 'Annual Rates', 'Federal Infirm Dependent Max Income', 10320).
 line(_TAXPAYER, 2012, 'Annual Rates', 'Federal Infirm Dependent Max Income', 99999).
 line(_TAXPAYER, 2013, 'Annual Rates', 'Federal Infirm Dependent Max Income', 99999).
+line(_TAXPAYER, 2014, 'Annual Rates', 'Federal Infirm Dependent Max Income', 99999).
 
 line(_TAXPAYER,2003, 'Annual Rates', 'Federal Base Tax Rate', RATE) :- 
     YEAR < 2007, RATE is 16;
@@ -330,5 +359,6 @@ line(_TAXPAYER,2008, 'Annual Rates', 'Federal Base Tax Rate', 15).
 line(_TAXPAYER,2009, 'Annual Rates', 'Federal Base Tax Rate', 15).
 line(_TAXPAYER,2012, 'Annual Rates', 'Federal Base Tax Rate', 15).
 line(_TAXPAYER,2013, 'Annual Rates', 'Federal Base Tax Rate', 15).
+line(_TAXPAYER,2014, 'Annual Rates', 'Federal Base Tax Rate', 15).
 
 line(_TAXPAYER,_YEAR, 'Annual Rates', 'Federal Top Tax Rate', 29).
